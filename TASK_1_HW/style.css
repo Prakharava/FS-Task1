@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    background-color: #e7f4e4;
+    transition: background-color 0.3s ease;
+}
+
+td:hover {
+    background-color: #d2e8d0;
+    cursor: pointer;
+}
+
+.lunch-cell {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal .content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.teacher-details {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.teacher-details th, .teacher-details td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.teacher-details th {
+    background-color: #4CAF50;
+    color: white; 
+    font-weight: bold;
+}
+
+.teacher-details tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+.teacher-details tr:hover {
+    background-color: #ddd;
+}
+
+.teacher-details td {
+    vertical-align: top;
+}
+
+
+
+
